@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
@@ -50,19 +51,9 @@ class _HomepageState extends State<Homepage> {
     return jsonDecode(data.body)['articles'];
   }
 
-  List<BottomNavigationBarItem> _bottomTab = [
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-    BottomNavigationBarItem(icon: Icon(Icons.ac_unit)),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: BottomNavigationBar(items: _bottomTab),
         appBar: AppBar(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -77,7 +68,7 @@ class _HomepageState extends State<Homepage> {
                     // fontFamily: GoogleFonts.irishGrover().fontFamily
                     ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 5,
               ),
               Text(
