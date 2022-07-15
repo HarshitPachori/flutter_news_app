@@ -1,16 +1,35 @@
-# news_app
+# **NEWS APPLICATION**
 
-A new Flutter project.
+This is a `News`  application 
+built using [Flutter](https://docs.flutter.dev/). Make sure to have flutter installed on your machine
+Clone the repo to your local machine
+Open an emulator and run flutter run within the cloned repo's folder.
+Try it out. As a test of the 
+framework, I wanted to implement something
+simple that would help me get the basics down.
+I have used [News API](https://newsapi.org/)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## **RUNNING THE APP**
 
-A few resources to get you started if this is your first Flutter project:
+Follow the steps below to run the app 
+on your local machine. You'll need to
+make sure you have `flutter` installed
+and either Android Studio and XCode
+installed to test this application in
+a simulator. Let me know if you
+encounter issues with the 
+Weather Screen. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Make sure to have `flutter` installed 
+   On your machine.
+       
+ 2. Clone the repo to your local machine.
+      
+ 3. Open an emulator and run `flutter run`
+    Within the cloned repo's folder.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 4. Try it out.
+
+
+<img src ="screenshot/1637937625140.jpg" width ="200">
